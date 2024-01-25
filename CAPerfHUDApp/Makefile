@@ -1,6 +1,6 @@
 ARCHS := arm64
 FINALPACKAGE := 1
-TARGET := iphone:clang:latest:11.0
+TARGET := appletv:clang:16.4:11.0
 INSTALL_TARGET_PROCESSES = CAPerfHUD
 
 include $(THEOS)/makefiles/common.mk
